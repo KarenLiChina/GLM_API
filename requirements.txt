@@ -1,0 +1,4 @@
+zhipuai
+langchain
+langchainhub
+httpx_sse
