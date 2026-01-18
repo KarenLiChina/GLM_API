@@ -5,7 +5,7 @@ pip install -r requirements.txt
 # 配置环境变量
 
 创建 `.env`文件，在.env文件中的设置 `MODEL_NAME`,`API_KEY` 和 `BASE_URL` 为自己的 key 和 url
-使用openai API时，需要配置base url
+`BAI_DU_AK`设置为百度天气查询的AK
 `LANGCHAIN_TRACING_V2`设置为true，`LANGCHAIN_PROJECT`设置为项目名称，不配置默认为default，`LANGCHAIN_API_KEY`设置为LangSmith的API Key，可以在LangSmith中查看调用大模型使用情况，不需要也可以不配置这两个变量
 
 ## langsmith的检测数据
@@ -14,3 +14,9 @@ pip install -r requirements.txt
 
 ## 魔搭社区向量数据库介绍
 https://www.modelscope.cn/models/iic/nlp_gte_sentence-embedding_chinese-large/summary
+
+
+## 百度天气查询API介绍
+https://lbs.baidu.com/faq/api?title=webapi/weather/base
+测试url：
+curl "https://api.map.baidu.com/weather/v1/?district_id=110100&data_type=now&ak=你的ak"
