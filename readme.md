@@ -11,3 +11,6 @@ pip install -r requirements.txt
 ## langsmith的检测数据
 配置`LANGCHAIN_TRACING_V2`，`LANGCHAIN_API_KEY`后可以在https://smith.langchain.com/ Tracing Projects中查看调用大模型的使用情况
 
+
+## 魔搭社区向量数据库介绍
+https://www.modelscope.cn/models/iic/nlp_gte_sentence-embedding_chinese-large/summary
